@@ -1,0 +1,8 @@
+// WinHex ÊÚÈ¨ÎÄ¼þ
+
+Name: "zzz"
+Addr1: "zzz@zzz.com"
+Addr2: "zzz"
+Key1: EB7050F4BDECC0D857C82A54704A2F74
+Key2: 93F7647B6A687F816BE05584F29BE422
+Chksm: 31

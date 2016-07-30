@@ -1,0 +1,24 @@
+/*
+ * 常用码表产生器
+ * Copyright (c) 2007, 蓝山老妖@巴士汉化组
+ * Email: bedegg@126.com
+ * All rights reserved.
+*/
+
+1、支持的码表范围：
+   Shift-Jis(Japanse)
+   GB2312(Chinese)
+   Unicode
+   BIG-5(T-Chinese)
+   KSC-5601-1987(Korean)
+
+2、自动生成完整码表：
+   自动产生所选编码类型的完整码表，编码范围参照ISO标准，去除了不符合国际标准的编码。
+
+3、手动选择码表范围：
+   手动设定产生编码的范围，仍根据ISO标准去除了不合法的编码。
+
+4、可以将生成的码表自动存储成Unicode(small endian)格式。
+
+5、为方便使用，可以有选择的在码表头部加入0x00-0xFF的ASCII码表
+   

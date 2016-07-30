@@ -1,0 +1,5 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\*\shell\textpro\command]
+@="c:\\TextPro\\Textpro.exe \"%1\""
+

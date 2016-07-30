@@ -1,0 +1,5 @@
+#!/usr/local/pspdev/bin/pspsh
+
+# Reload vsh while maintaining PSPLink
+reset vsh
+flash0:/vsh/module/vshmain.prx

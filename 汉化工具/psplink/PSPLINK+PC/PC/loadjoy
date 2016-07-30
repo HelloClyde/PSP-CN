@@ -1,0 +1,4 @@
+#!/usr/local/pspdev/bin/pspsh
+
+# Load Remote Joy SDL
+ms0:/seplugins/remotejoy.prx

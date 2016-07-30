@@ -1,0 +1,8 @@
+16進制查看：UltraEdit、winhex、Translhextion
+PS2媒體轉換：cubemedia2、pssplex
+鏡像修改：CD_DVD.Generator、apache、gd3-iml2iso
+文本導入導出：CrystalScript、菜鳥工具
+文本其他：TextPro、菜ソ數
+字庫修改：CrystalTile
+碼表：Shift-JIS_h（雙字節）、ASCII（單字節）、Shift-JIS(B)（單雙字節）
+DLL：comdlg32.dll、MFC71.dll、MFC71u.dll、msvcr71.dll、Richtx32.ocx

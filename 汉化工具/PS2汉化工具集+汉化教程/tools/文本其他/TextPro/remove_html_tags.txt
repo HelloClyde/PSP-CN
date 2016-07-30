@@ -1,0 +1,50 @@
+% This is a sample file containing batched regular replacement rules
+% It converts HTML files into plain text files.
+
+% remove HTML comments
+\s{-}\<!.* \d
+
+% convert titles into plain text
+\s{-}\<title\>(.{-})\</title\> \1
+
+% convert headers into plain text
+\s{-}\<h\d.{-}\>(.{-})\</h\d\> \1
+
+% convert <p> into return
+\<p.{-}\> \n\n
+
+% convert <br> into return
+\<br\> \n
+
+%remove font information
+\s{-}\</?font.{-}\>
+\</?[bB]\>
+
+% convert hyperlinks into plain text
+\</?a.{-}\>
+
+% convert paragraph into plain text
+\s{-}\</?p.{-}\>
+
+% convert tables into plain text, use TAB as saparator of columns
+^\s{-}\<tr\>\s{-}$ \d
+\s{-}\<tr\>
+\s{-}\</tr\>\s{-}
+\s{-}\<td.{-}\>(.{-})\</td\>\s*$   \1\t\d
+\s{-}\<td.{-}\>(.{-})\</td\>    \1\t
+
+% remove image links
+"\s{-}\<img .{-}\>"
+
+% convert lists into TAB-leading lines
+\<li\> \t
+
+% remove other HTML tags
+^\s{-}\</?\a\~f{-}\>\s{-}$ \d
+\</?\a\~f{-}\>
+
+% other replacements
+\&nbsp; " "
+\&copy; (c)
+\&gt; >
+\&lt; <

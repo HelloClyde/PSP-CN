@@ -1,0 +1,61 @@
+:Base winhex-f.hlp
+:Title WinHex
+1 Sommaire=Topic1
+1 Informations générales
+2 A propos de WinHex=Topic2
+2 WinHex vs. X-Ways Forensics=Topic78
+2 Commander la version complète=Topic4
+2 Utilisation de l'éditeur hexadécimal=Topic3
+2 Données à nombre entier=Topic5
+2 Données du type flottant=Topic38
+2 Types dates=Topic48
+2 ASCII ANSI/IBM=Topic6
+2 Sommes de contrôle=Topic7
+2 Hachage à sens unique=Topic44
+2 Caractéristiques techniques=Topic8
+2 Mentions légales=Topic16
+1 Fonctions forensiques
+2 Case Management=Topic73
+2 Objets de preuve=Topic76
+2 Log & Report Feature=Topic74
+2 Internal Viewer=Topic77
+2 Rapport de Registry=Topic79
+2 Table contenu de disque=Topic75
+2 Mode Buttons=Topic80
+2 Logical Search=Topic83
+2 Base de données hash=Topic84
+1 Travailler avec l'éditeur hexadécimal
+2 Démarrage rapide centralisé=Topic61
+2 Options générales=Topic9
+2 Saisie de caractères=Topic10
+2 Les modes d'édition=Topic11
+2 Barre d'états=Topic12
+2 Conseils utiles=Topic13
+2 Scripts=Topic63
+2 API=Topic64
+2 Editeur de disque=Topic15
+2 Navigateur de répertoire=Topic72
+2 Editeur de RAM=Topic39
+1 Référence menu
+2 Fichier=Topic17
+2 Edition=Topic18
+2 Recherche=Topic19
+2 Position=Topic20
+2 Affichage=Topic62
+2 Outils=Topic22
+2 Outils Spécialiste=Topic67
+2 Options=Topic23
+2 Fenêtre=Topic21
+2 Aide=Topic25
+2 Menu contexte=Topic41
+2 Menu contexte du Navigateur=Topic85
+1 Divers
+2 Conversions=Topic34
+2 Modifier des données=Topic28
+2 Effacer et initialiser=Topic50
+2 Interpréteur de données=Topic36
+2 Clonage de disque=Topic57
+2 Images et sauvegardes=Topic42
+2 Gestion de signets=Topic40
+2 Editer avec des formulaires=Topic52
+2 Récupération de données=Topic59
